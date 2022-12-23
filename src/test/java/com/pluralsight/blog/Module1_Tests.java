@@ -31,7 +31,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 @SpringBootTest
 @AutoConfigureMockMvc(print = MockMvcPrint.NONE)
 @PrepareForTest(BlogController.class)
-public class Module1_Tests {
+public class  Module1_Tests {
 
 	@Autowired
 	private MockMvc mvc;
